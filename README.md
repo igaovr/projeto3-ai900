@@ -3,8 +3,9 @@
 
 Você pode usar os recursos de análise de imagem do Azure AI Vision com um recurso multisserviços de serviços de IA do Azure. Se ainda não o fez, crie um recurso de serviços de IA do Azure na sua subscrição do Azure.
 
-    Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com, entrando na conta Microsoft associada à sua assinatura do Azure.
-    Clique no+Criar um recursobotão e busca porServiços de IA do Azure( , . e Selecione aCriare aServiços de IA do Azure- Plano. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com, entrando na conta Microsoft associada à sua assinatura do Azure.
+    
+Clique no+Criar um recursobotão e busca porServiços de IA do Azure( , . e Selecione aCriare aServiços de IA do Azure- Plano. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
         Assinatura: Sua assinatura do Azure.
         Grupo de recursos: Selecione ou crie um grupo de recursos com um nome exclusivo.
         Região : Leste dos EUA.
@@ -17,11 +18,12 @@ Conecte seu recurso de serviço do Azure AI ao Vision Studio
 
 Em seguida, conecte o recurso de serviço de IA do Azure que você provisionou acima ao Vision Studio.
 
-    Em outra guia do navegador, navegue até o Vision Studio.
+Em outra guia do navegador, navegue até o Vision Studio.
 
-    Entre com sua conta e certifique-se de que você está usando o mesmo diretório que aquele em que você criou seu recurso de serviços de IA do Azure.
+Entre com sua conta e certifique-se de que você está usando o mesmo diretório que aquele em que você criou seu recurso de serviços de IA do Azure.
 
-    Na página inicial do Vision Studio, selecione Ver todos os recursos no título Gettingcome com Visão.
+Na página inicial do Vision Studio, selecione Ver todos os recursos no título Gettingcome com Visão.
+
 ![vision-resources](https://github.com/igaovr/projeto3-ai900/assets/147111827/596d3f8e-554d-4e45-90db-cb93fdf03144)
 
 No modo Selecionar um recurso para trabalhar com a página, passe o cursor do mouse sobre o recurso que você criou acima na lista e, em seguida, marque a caixa à esquerda do nome do recurso e selecione Selecionar como recurso padrão.
@@ -37,9 +39,9 @@ Agora você está pronto para usar o Vision Studio para analisar imagens tiradas
 
 Vejamos a funcionalidade de legendas de imagem do Azure AI Vision. As legendas de imagem estão disponíveis através dos recursos Legendas de legendas e legendas de denso.
 
-    Em um navegador da web, navegue até o Vision Studio.
+Em um navegador da web, navegue até o Vision Studio.
 
-    No início da página de destino da Visão, selecione a guia Análise de imagem e selecione o bloco Adicionar legendas a imagens.
+No início da página de destino da Visão, selecione a guia Análise de imagem e selecione o bloco Adicionar legendas a imagens.
 
 <img width="400" alt="add-captions" src="https://github.com/igaovr/projeto3-ai900/assets/147111827/3b4bb4bd-8072-4c78-94a6-69d1c69e1afd">
 
@@ -68,11 +70,12 @@ Mova o cursor do mouse sobre as outras legendas da lista e observe como a caixa 
 
 O próximo recurso que você vai tentar é a funcionalidade Extract Tags. As etiquetas de extração são baseadas em milhares de objetos reconhecíveis, incluindo seres vivos, cenário e ações.
 
-    Retorne à página inicial do Vision Studio e selecione o extrato de tags comuns do bloco de imagens na guia Análise de imagem.
+Retorne à página inicial do Vision Studio e selecione o extrato de tags comuns do bloco de imagens na guia Análise de imagem.
 
-    No modelo que você deseja experimentar, deixe o modelo Prebuilt do produto vs. gap selecionado. No idioma Escolha o seu idioma, selecione Inglês ou um idioma de sua preferência.
+No modelo que você deseja experimentar, deixe o modelo Prebuilt do produto vs. gap selecionado. No idioma Escolha o seu idioma, selecione Inglês ou um idioma de sua preferência.
 
-    Abra a pasta contendo as imagens que você baixou e localize o arquivo chamado store-image-2.jpg, que se parece com isso:
+Abra a pasta contendo as imagens que você baixou e localize o arquivo chamado store-image-2.jpg, que se parece com isso:
+
 ![store-camera-2](https://github.com/igaovr/projeto3-ai900/assets/147111827/0e79f18c-83be-4d9b-b8fd-05200b8c0f0c)
 
 Carregue o arquivo store-camera-2.jpg.
@@ -85,11 +88,11 @@ Revise a lista de tags extraídas da imagem e a pontuação de confiança para c
 
 Nesta tarefa, você usa o recurso de detecção de objeto da análise de imagem. A detecção de objetos detecta e extrai caixas delimitadas com base em milhares de objetos e seres vivos reconhecíveis.
 
-    Retorne à página inicial do Vision Studio e selecione o bloco Detectar objetos comuns em imagens na guia Análise de imagem.
+Retorne à página inicial do Vision Studio e selecione o bloco Detectar objetos comuns em imagens na guia Análise de imagem.
 
-    No modelo que você deseja experimentar, deixe o modelo Prebuilt do produto vs. gap selecionado.
+No modelo que você deseja experimentar, deixe o modelo Prebuilt do produto vs. gap selecionado.
 
-    Abra a pasta contendo as imagens que você baixou e localize o arquivo chamado store-camera-3.jpg, que se parece com isso:
+Abra a pasta contendo as imagens que você baixou e localize o arquivo chamado store-camera-3.jpg, que se parece com isso:
 
 ![store-camera-3](https://github.com/igaovr/projeto3-ai900/assets/147111827/fc4bbb76-fb63-4819-8406-52556af76084)
 
