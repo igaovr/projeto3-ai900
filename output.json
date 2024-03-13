@@ -1,0 +1,45 @@
+{
+  "apim-request-id": "5796b179-ae24-40cd-8d3e-e9d3eb8dbc9c",
+  "content-length": "167",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a car with smoke coming out of the back",
+    "confidence": 0.7670255303382874
+  },
+  "metadata": {
+    "width": 1404,
+    "height": 830
+  }
+}
+
+{
+  "apim-request-id": "9ab8e460-3f08-48b9-aa83-dd9864facdb1",
+  "content-length": "152",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "two race cars on a track",
+    "confidence": 0.7839307188987732
+  },
+  "metadata": {
+    "width": 1200,
+    "height": 800
+  }
+}
+
+{
+  "apim-request-id": "d45ccbd7-2cc1-46ba-960a-316a40c706a0",
+  "content-length": "150",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a green car on a road",
+    "confidence": 0.7485655546188354
+  },
+  "metadata": {
+    "width": 1920,
+    "height": 1080
+  }
+}
+
